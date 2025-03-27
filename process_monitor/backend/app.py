@@ -10,7 +10,7 @@ import time
 app = Flask(__name__, static_folder='../frontend')
 CORS(app)
 
-# Process Manager Class
+# PROCESS MANAGER
 class ProcessManager:
     def __init__(self):
         self.whitelist = ["System Idle Process", "System", "explorer.exe", "svchost.exe"]
